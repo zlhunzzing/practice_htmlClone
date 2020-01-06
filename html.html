@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <title>world</title>
+<body>
+    <div class="board"></div>
+
+    <div class="main">
+
+        <div class="introBar">
+            <div class="introTitle">여행 예약도 여행자 호스팅도 모두 에어비앤비에서</div>
+
+            <div class="introMenu">
+                <span class="iMenu1">
+                    <div>다양한 숙소와 체험을 찾아보세요</div>
+                    <input type="button" class="introButton">
+                </span>
+                <span class="iMenu2">
+                    <div>남는 공간을 활용해 수익을 올려보세요</div>
+                    <input type="button" class="introButton">
+                </span>
+            </div>
+
+        </div>
+
+        <div class="findBar">
+            <div class="findTitle">독특한 숙소와 체험을 예약하세요</div>
+
+            <div class="findMenu">
+                <span class="fMenu1">
+                    <div>목적지</div>
+                    <input type="text" class="findBox" value="모든위치">
+                </span>
+                <span class="fMenu2">
+                    <div>체크인 * 체크아웃</div>
+                    <input type="text" class="findBox" value="년/월/일">
+                </span>
+                <span class="fMenu2">
+                    <div>인원</div>
+                    <input type="text" class="findBox" value="게스트 1명">
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <style>
+        .board {
+            position: absolute;
+            width: 100%; height: 200px;
+            border: 1px solid black;
+        }
+        .main {
+            position: absolute;
+            left: 20%; right: 20%;
+            width: 60%; height: 100%;
+            border: 1px solid black;
+        }
+
+        .introBar {
+            padding-top: 50px;
+            top: 75px;
+            border: 1px solid black;
+        }
+        .introTitle {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .introMenu {
+            font-size: 15px;
+            border: 1px solid black;
+        }
+        .iMenu1 {
+            float: left;
+            border: 1px solid black;
+            padding-right: 10px;
+        }
+        .introButton {
+            width: 200px;
+        }
+
+        .findBar {
+            padding-top: 75px;
+            border: 1px solid black;
+        }
+        .findMenu {
+            padding-top: 10px;
+        }
+        .fMenu1 {
+            float: left;
+            padding-right: 10px;
+        }
+        .fMenu2 {
+            float: left;
+            padding-right: 10px;
+        }
+
+
+
+
+    </style>
+</body>
+</html>
